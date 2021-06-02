@@ -1,7 +1,14 @@
 library pixpay;
 
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
+/// A PixPay.
+class PixPay {
+  // TODO implement pix payment
+  pay(double amount, String toPixKey) {
+    return 'payment of \$$amount sended to $toPixKey whit pix';
+  }
+
+  // TODO implement pix receivement
+  received(double amount, String fromPixKey) {
+    return 'payment received of \$$amount from $fromPixKey whit pix';
+  }
 }

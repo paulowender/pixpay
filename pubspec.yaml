@@ -1,8 +1,8 @@
 name: pixpay
-description: A new Flutter package project.
+description: Transactions whit pix payments from BC
 version: 0.0.1
-author:
-homepage:
+author: Paulo Wender<paulowender2011@gmail.com>
+homepage: https://github.com/paulowender/pixpay.git
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
